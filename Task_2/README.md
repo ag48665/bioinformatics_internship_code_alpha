@@ -1,56 +1,90 @@
-\# Task 2 – Multiple Sequence Alignment
+# 🧬 Task 2 – Multiple Sequence Alignment
 
+## 📌 Overview
 
+This project was completed as part of the **CodeAlpha Bioinformatics Internship**.
 
-\## Objective
+The objective of this task was to perform a **Multiple Sequence Alignment (MSA)** of **hemoglobin beta (HBB) protein sequences** from five mammalian species using **Clustal Omega**. The analysis was conducted to identify conserved amino acid residues and investigate evolutionary relationships.
 
-Perform a Multiple Sequence Alignment (MSA) of five hemoglobin beta protein sequences using Clustal Omega.
+---
 
+## 🎯 Objectives
 
+* Retrieve HBB protein sequences from **UniProt**.
+* Perform a **Multiple Sequence Alignment (MSA)** using **Clustal Omega**.
+* Identify conserved amino acid residues.
+* Analyze sequence similarity across species.
+* Interpret evolutionary relationships using phylogenetic analysis.
 
-\## Tools
+---
 
-\- UniProt
+## 🛠️ Tools & Resources
 
-\- Clustal Omega
+* **UniProt**
+* **Clustal Omega**
 
+---
 
+## 🧬 Species Included
 
-\## Species
+* **Homo sapiens** (Human)
+* **Mus musculus** (Mouse)
+* **Canis lupus familiaris** (Dog)
+* **Bos taurus** (Cattle)
+* **Sus scrofa** (Pig)
 
-\- Homo sapiens
+---
 
-\- Mus musculus
+## 📊 Results
 
-\- Canis lupus familiaris
+The Multiple Sequence Alignment revealed a high level of conservation among the **hemoglobin beta proteins** of the selected mammalian species.
 
-\- Bos taurus
+### Key Findings
 
-\- Sus scrofa
+* Highly conserved amino acid residues were identified across all five sequences.
+* Conserved regions correspond to functionally important parts of the hemoglobin beta protein.
+* The generated **Guide Tree** and **Phylogenetic Tree** illustrated the evolutionary relationships among the analyzed species.
+* The observed sequence conservation reflects the essential biological role of hemoglobin in oxygen transport.
 
+---
 
+## 📂 Repository Structure
 
-\## Results
+```text
+Task-2-Multiple-Sequence-Alignment/
+│
+├── README.md
+├── Report_Task2.pdf
+├── HBB_5_species.fasta
+└── Figures/
+    ├── guide_tree.png
+    ├── phylogenetic_tree.png
+    └── alignment.png
+```
 
-The alignment identified highly conserved amino acid residues across all five hemoglobin beta proteins. Guide Tree and Phylogenetic Tree analyses demonstrated the evolutionary relationships between the selected mammalian species.
+---
 
+## 📸 Repository Contents
 
+The repository includes:
 
-\## Files
+* Multiple Sequence Alignment (MSA)
+* Guide Tree
+* Phylogenetic Tree
+* FASTA file containing the analyzed protein sequences
+* Project report
 
-\- Report\_Task2.pdf
+---
 
-\- Figures
+## 📚 References
 
-\- HBB\_5\_species.fasta
+* https://www.uniprot.org/
+* https://www.ebi.ac.uk/jdispatcher/msa/clustalo
 
+---
 
+## 👩‍💻 Author
 
+**Agata Gabara**
 
-
-\\\*\\\*Author:\\\*\\\* Agata Gabara  
-
-
-
-\\\*\\\*Internship:\\\*\\\* CodeAlpha Bioinformatics Internship
-
+**CodeAlpha Bioinformatics Internship**

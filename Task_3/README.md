@@ -1,48 +1,87 @@
-\# Task 3 – Protein Structure Prediction
+# 🧬 Task 3 – Protein Structure Prediction
 
+## 📌 Overview
 
+This project was completed as part of the **CodeAlpha Bioinformatics Internship**.
 
-\## Objective
+The objective of this task was to predict and visualize the **three-dimensional structure** of the **human hemoglobin beta (HBB) protein** using the **AlphaFold Protein Structure Database**. The analysis focused on examining the predicted protein structure and assessing its biological relevance.
 
-Predict and visualize the three-dimensional structure of the human hemoglobin beta protein using AlphaFold DB.
+---
 
+## 🎯 Objectives
 
+* Retrieve the HBB protein sequence from **UniProt**.
+* Access the predicted protein structure in **AlphaFold DB**.
+* Visualize the three-dimensional structure of the protein.
+* Analyze structural features and prediction confidence.
+* Interpret the biological significance of the predicted model.
 
-\## Tools
+---
 
-\- UniProt
+## 🛠️ Tools & Resources
 
-\- AlphaFold Protein Structure Database
+* **UniProt**
+* **AlphaFold Protein Structure Database**
 
+---
 
+## 🧬 Protein Information
 
-\## Protein
+| Property   | Value                             |
+| ---------- | --------------------------------- |
+| Protein    | **Hemoglobin subunit beta (HBB)** |
+| UniProt ID | **P68871**                        |
+| Organism   | **Homo sapiens**                  |
 
-\- Hemoglobin subunit beta (HBB)
+---
 
-\- UniProt ID: P68871
+## 📊 Results
 
-\- Organism: Homo sapiens
+The AlphaFold prediction revealed the characteristic **globin fold**, consisting predominantly of **alpha-helices** arranged into a compact globular structure.
 
+### Key Findings
 
+* The predicted structure exhibits the typical globin protein architecture.
+* Alpha-helices are the dominant secondary structural elements.
+* The AlphaFold model demonstrates high prediction confidence across most of the protein.
+* The structural model is consistent with the known biological function of hemoglobin beta in oxygen transport.
 
-\## Results
+---
 
-The predicted protein structure revealed the characteristic globin fold dominated by alpha-helices. The AlphaFold model showed high confidence and a compact globular structure consistent with the known biological function of hemoglobin beta.
+## 📂 Repository Structure
 
+```text
+Task-3-Protein-Structure-Prediction/
+│
+├── README.md
+├── Report_Task3.pdf
+└── screenshots/
+    ├── protein_structure.png
+    ├── confidence_map.png
+    └── structure_views.png
+```
 
+---
 
-\## Files
+## 📸 Repository Contents
 
-\- Report\_Task3.pdf
+The repository includes:
 
-\- Protein structure screenshots
+* AlphaFold protein structure visualizations
+* Prediction confidence screenshots
+* Project report
 
+---
 
+## 📚 References
 
-\\\*\\\*Author:\\\*\\\* Agata Gabara  
+* https://www.uniprot.org/
+* https://alphafold.ebi.ac.uk/
 
+---
 
+## 👩‍💻 Author
 
-\\\*\\\*Internship:\\\*\\\* CodeAlpha Bioinformatics Internship
+**Agata Gabara**
 
+**CodeAlpha Bioinformatics Internship**
